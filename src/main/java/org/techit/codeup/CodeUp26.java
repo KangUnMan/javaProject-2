@@ -7,7 +7,7 @@ public class CodeUp26 {
         Scanner scan = new Scanner(System.in);
         String timeInput = scan.nextLine();
         String[] timeStr = timeInput.split(":");
-        int time[] = new int[timeStr.length];
+        int[] time = new int[timeStr.length];
         for(int i=0; i<timeStr.length; i++){
             time[i] = Integer.parseInt(timeStr[i]);
         }
