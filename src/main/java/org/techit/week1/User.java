@@ -5,4 +5,8 @@ public class User {
     String name;
     String phoneNumber;
     int age;
+
+    boolean isAdult(){
+        return  age >= 18; //멤버변수와 상호작용
+    }
 }
