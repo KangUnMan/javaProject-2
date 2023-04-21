@@ -5,11 +5,11 @@ public class MemberVar {
     int location;
     private void moveLeft() {
         location -= 1; // 변수 사라짐
-        System.out.printf("moveLeft: %d\n",location);
+
     }
     private void moveRight() {
         location += 1; // 변수 사라짐
-        System.out.printf("moveRight: %d\n",location);
+
     }
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class MemberVar {
         si.moveLeft();
         si.moveLeft();
         si.moveLeft();
-
+        System.out.printf("최종 위치 : %d",si.location);
 
     }
 }
