@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp42 {
     public static void main(String[] args) {
+        //
         Scanner scan = new Scanner(System.in); //스캐너 객체 생성
         String PlusNum = scan.nextLine(); // 입력값을 받을 스트링 변수 생성
         String[] PlusNumChange; // 변수를 나눠줄 배열 생성

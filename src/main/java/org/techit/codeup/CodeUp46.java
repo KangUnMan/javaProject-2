@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp46 {
     public static void main(String[] args) {
+        //
         Scanner scan = new Scanner(System.in); //스캐너 객체 생성
 
         String calNumStr = scan.nextLine(); // 입력받을 String 형 변수 생성후 스캐너로 입력 받은 값 대입
