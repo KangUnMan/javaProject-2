@@ -12,6 +12,6 @@ public class ReferenceTypeArray {
         students[1].phoneNumber = "010-2468-1357";
         students[1].age = 2;
 
-        System.out.println(students[0].age);
+        System.out.printf("%s님 안녕하십니까 나이%d 전화번호 %s",students[0].name,students[0].age,students[0].phoneNumber);
     }
 }
