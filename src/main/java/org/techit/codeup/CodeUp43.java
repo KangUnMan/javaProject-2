@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class CodeUp43 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); //스캐너 객체 생성
-        String PlusNum = scan.nextLine(); // 입력값을 받을 스트링 변수 생성
+        int val = scan.nextInt();
+        int val2 = scan.nextInt();
+        System.out.printf("%d",val%val2);
+       /* String PlusNum = scan.nextLine(); // 입력값을 받을 스트링 변수 생성
         String[] PlusNumChange; // 변수를 나눠줄 배열 생성
         PlusNumChange =PlusNum.split(" ");// 공백을 기준으로 나누기
         int[] val = new int[PlusNumChange.length];
@@ -18,6 +21,6 @@ public class CodeUp43 {
             }
         }
         System.out.printf("%d",val[0]%val[1]);
-
+        */
     }
 }

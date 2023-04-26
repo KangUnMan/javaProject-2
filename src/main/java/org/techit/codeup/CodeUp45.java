@@ -5,8 +5,15 @@ import java.util.Scanner;
 public class CodeUp45 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); //스캐너 객체 생성
-
-        String calNumStr = scan.nextLine(); // 입력받을 String 형 변수 생성후 스캐너로 입력 받은 값 대입
+        int calNumA = scan.nextInt();
+        int calNumB = scan.nextInt();
+        System.out.printf("%d\n",calNumA+calNumB);
+        System.out.printf("%d\n",calNumA-calNumB);
+        System.out.printf("%d\n",calNumA*calNumB);
+        System.out.printf("%d\n",calNumA/calNumB);
+        System.out.printf("%d\n",calNumA%calNumB);
+        System.out.printf("%.2f\n",(float)calNumA/calNumB);
+       /* String calNumStr = scan.nextLine(); // 입력받을 String 형 변수 생성후 스캐너로 입력 받은 값 대입
 
         String[] calNumStrArr = calNumStr.split(" "); // 공백으로 구분하여 배열에 넣기.
 
@@ -26,7 +33,7 @@ public class CodeUp45 {
         System.out.printf("%d\n",calNumArr[0]*calNumArr[1]);
         System.out.printf("%d\n",calNumArr[0]/calNumArr[1]);
         System.out.printf("%d\n",calNumArr[0]%calNumArr[1]);
-        System.out.printf("%.2f\n",(float)calNumArr[0]/calNumArr[1]);
+        System.out.printf("%.2f\n",(float)calNumArr[0]/calNumArr[1]);*/
 
     }
 }
