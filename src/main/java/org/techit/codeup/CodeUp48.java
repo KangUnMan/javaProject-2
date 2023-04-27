@@ -11,6 +11,6 @@ public class CodeUp48 {
         for(int i=0; i<bitCalNumStrArr.length; i++){
             bitCalNumArr[i] = Integer.parseInt(bitCalNumStrArr[i]);
         }
-        System.out.printf("%d",bitCalNumArr[0]<<bitCalNumArr[1]);
+        System.out.printf("%d",bitCalNumArr[0]<<bitCalNumArr[1]); //첫번째 입력받은 수를 두번째 입력받은 수 만큼 쉬프트 연산한다.
     }
 }
