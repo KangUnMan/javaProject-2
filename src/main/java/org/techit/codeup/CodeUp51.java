@@ -8,7 +8,7 @@ public class CodeUp51 {
 
         String calNumStr = scan.nextLine(); // 입력받을 String 형 변수 생성후 스캐너로 입력 받은 값 대입
 
-        String[] calNumStrArr = calNumStr.split(" "); // 공백으로 구분하여 배열에 넣기.
+        String[] calNumStrArr = calNumStr.split(" "); // 공백으로 구분하여 배열에 넣기
 
         //조건 a는 0보다 같거나 크고 b는 0이아니다.
         int[] calNumArr = new int[calNumStrArr.length]; //b가 음수를 입력했을 경우 체크하여 바꿔준다.
