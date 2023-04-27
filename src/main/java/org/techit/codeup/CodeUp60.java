@@ -15,7 +15,6 @@ public class CodeUp60 {
         // 이런식으로 겹치는 1만 남아 10진수로 변환되어 1이 출력된다.
         //비트 단위 연산자 종류** 비트단위(bitwise)연산자는,
         //~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor),
-        //<<(bitwise left shift), >>(bitwise right shift)
-        //가 있다.
+        //<<(bitwise left shift), >>(bitwise right shift)가 있다.
     }
 }
