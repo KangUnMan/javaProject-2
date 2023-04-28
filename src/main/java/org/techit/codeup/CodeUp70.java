@@ -7,6 +7,7 @@ public class CodeUp70 {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
         switch (month){
+            case 12:
             case 1:
             case 2:
                 System.out.printf("winter");
@@ -25,9 +26,6 @@ public class CodeUp70 {
             case 10:
             case 11:
                 System.out.printf("fall");
-                break;
-            case 12:
-                System.out.printf("winter");
                 break;
             default:
                 System.out.printf("1~12");
