@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp65 {
     public static void main(String[] args) {
+        //홀짝수
         Scanner sc = new Scanner(System.in);
         int numEven1 = sc.nextInt();
         int numEven2 = sc.nextInt();
