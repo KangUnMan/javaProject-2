@@ -1,6 +1,7 @@
 package org.techit.week2.lastday;
 
 public class SwitchCaseClincHours {
+    //연습
     public static void main(String[] args) {
         String day = "월";
         String time = "휴진";

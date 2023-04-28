@@ -1,6 +1,7 @@
 package org.techit.week2.lastday;
 
 public class SeasonSwitcheEx {
+    //가독성
     public static void main(String[] args) {
         int season = 3;
         switch (season){
