@@ -1,4 +1,4 @@
-package org.techit;
+package org.techit.week1;
 
 public class PrintA {
     public void printA(){

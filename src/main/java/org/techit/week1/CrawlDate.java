@@ -1,4 +1,4 @@
-package org.techit;
+package org.techit.week1;
 
 import java.time.LocalDateTime;
 
