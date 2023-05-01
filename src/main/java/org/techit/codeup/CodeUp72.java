@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp72 {
     public static void main(String[] args) {
+        // 72번 goto문이 뭘까
         Scanner sc = new Scanner(System.in);
         int selectNum = sc.nextInt();
         sc.nextLine();
