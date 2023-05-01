@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp80 {
     public static void main(String[] args) {
+        //입력한 정수보다 같거나 작을때까지 반복
         Scanner sc = new Scanner(System.in);
         int plusAllNumber = sc.nextInt();
         int sum=0;
