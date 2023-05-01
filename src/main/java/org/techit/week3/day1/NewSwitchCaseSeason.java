@@ -9,6 +9,7 @@ public class NewSwitchCaseSeason {
             case 2 -> 28;
             default -> throw new IllegalArgumentException("잘못된 월:" +
                     month);
+            // -> 타입추론
         };
         System.out.println(lastDate);
     }
