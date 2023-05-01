@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class CodeUp79 {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
-
+        //q가 입력될때까지 무한 반복.
         String qOrRepeatStr;
-        char qOrRepeat; //변환해서 넣을 문자열?
+        char qOrRepeat; //79번
         String[] qOrRepeatStrArr;
         boolean onOff= true;
         while (onOff==true){

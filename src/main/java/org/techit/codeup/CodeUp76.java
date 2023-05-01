@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp76 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); //이렇게 처리하는게 일반적이라고 합니다.
+        Scanner sc = new Scanner(System.in); //76번
         char alpaInput = sc.nextLine().charAt(0);
         char startAlp = 'a';
         do{
