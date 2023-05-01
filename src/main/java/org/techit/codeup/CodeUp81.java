@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp81 {
     public static void main(String[] args) {
+        //서로 다른 주사위 2개를 던졌을 때 나올 수 있는 모든 경우를 출력.
         Scanner sc = new Scanner(System.in);
         int diceNum1 = sc.nextInt();
         int diceNum2 = sc.nextInt();

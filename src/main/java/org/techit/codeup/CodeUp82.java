@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp82 {
     public static void main(String[] args) {
+        //16진수 구구단
         Scanner sc = new Scanner(System.in);
         String hexNumStr = sc.nextLine();
         int hexNum = Integer.parseInt(hexNumStr , 16); //16진수나 8진수나 2진수나 변환할때 이걸쓰자.
