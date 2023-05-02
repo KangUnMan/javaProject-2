@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class CodeUp84 { // 시간초과로인한 코드배낌..
 
     public static void main(String[] args) throws IOException {
+        //84번
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();
         int g = sc.nextInt();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp85 {
     public static void main(String[] args) {
+        //85번
         Scanner sc = new Scanner(System.in);
         int hz = sc.nextInt(); // 소리
         int bit = sc.nextInt(); // 비트

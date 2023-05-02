@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp86 {
     public static void main(String[] args) {
+        //86번
         Scanner sc = new Scanner(System.in);
         int pixel = sc.nextInt();
         int pixel2 = sc.nextInt();
