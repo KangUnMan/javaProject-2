@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CodeUp93 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] student = new int[23]; // 출석번호
+        int[] student = new int[23]; // 출석번호 배열
         int randomTry = sc.nextInt(); // 출석번호를 무작위로 부르는 횟수.
         for(int i=0; i<randomTry; i++){
             int number = sc.nextInt();

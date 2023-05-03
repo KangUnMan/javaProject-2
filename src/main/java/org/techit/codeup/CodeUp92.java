@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp92 {
     public static void main(String[] args) {
-        // 입력주기가 겹치는날을 구하는 문제.
+        // 입력주기가 겹치는날을 구하는 문제이다.
         Scanner sc = new Scanner(System.in);
         int kang = sc.nextInt(); //모두 같이 문제를 푸는 주기
         int kim = sc.nextInt();
