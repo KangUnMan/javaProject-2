@@ -3,6 +3,7 @@ package org.techit.codeup;
 import java.util.Scanner;
 
 public class CodeUp91 {
+    //91번
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long al = sc.nextInt(); // 시작 값

@@ -2,7 +2,7 @@ package org.techit.codeup;
 
 import java.util.Scanner;
 
-public class CodeUp90 { // ??
+public class CodeUp90 { // 90번
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long startVar = sc.nextInt();
