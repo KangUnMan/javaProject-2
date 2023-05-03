@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class CodeUp94 {
     public static void main(String[] args) {
-        //공백을 포함해서 입력하니까 먼저 값을 입력받고 배열에 넣은 다음에, 배열 길이만큼, 다시 집어넣으면 될거같음..
         Scanner sc = new Scanner(System.in);
         int randomTry = sc.nextInt(); // 출석번호를 무작위로 부르는 횟수.
         int[] student = new int[randomTry]; // 출석을 부른 횟수에 맞춰 배열길이를 설정한다.
