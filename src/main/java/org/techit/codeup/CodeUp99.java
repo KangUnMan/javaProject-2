@@ -12,7 +12,7 @@ public class CodeUp99 {
         int[][] maze = new int[10][10];
         int line=1;
         int row=1;
-        for(int j=0; j< maze.length; j++){ //입력받는곳
+        for(int j=0; j< maze.length; j++){ //입력
             String mazeWide = sc.nextLine();
             String[] mazeWideArr = mazeWide.split(" ");
             int[] mazeWideNum = new int[mazeWideArr.length];

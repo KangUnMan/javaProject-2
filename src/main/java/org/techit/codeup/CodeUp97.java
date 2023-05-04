@@ -2,7 +2,7 @@ package org.techit.codeup;
 
 import java.util.Scanner;
 
-public class CodeUp97 { //나중에.. 다시 보자..
+public class CodeUp97 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String badukPoint;
