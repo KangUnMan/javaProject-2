@@ -8,7 +8,7 @@ public class CodeUp94 {
         Scanner sc = new Scanner(System.in);
         int randomTry = sc.nextInt(); // 출석번호를 무작위로 부르는 횟수.
         int[] student = new int[randomTry]; // 출석을 부른 횟수에 맞춰 배열길이를 설정한다.
-        sc.nextLine(); // 아니.. 이걸 넣어야하네..
+        sc.nextLine();
         String rn = sc.nextLine(); // 출석번호를 입력받을 스트링
         String[] rnArr;
         rnArr= rn.split(" "); //공백으로 구분지어 배열에 넣어준다.
