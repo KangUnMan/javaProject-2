@@ -2,7 +2,7 @@ package org.techit.week3.day4;
 
 public class P120852B {
     public static void main(String[] args) {
-        int n = 120;
+        int n = 12;
         int divisor = 2;
         int[] arr = new int[n + 1];
         while (n > 1) {
@@ -14,7 +14,6 @@ public class P120852B {
             }
         }
         int size = 0;
-        int lastIndex = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                 size++;
@@ -28,6 +27,7 @@ public class P120852B {
                 idx++;
             }
         }
+        for (int i = 0; i < arr.length; i++) System.out.printf("%d ", arr[i]);
         for (int i = 0; i < answer.length; i++) System.out.printf("%d ", answer[i]);
     }
 }
