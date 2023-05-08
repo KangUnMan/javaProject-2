@@ -7,17 +7,13 @@ public class CodeUp1361 {
 
         Scanner sc = new Scanner(System.in);
 
-        int floor = sc.nextInt();
+        int height = sc.nextInt();
         String starSpace = "";
-        for (int i = 0; i < floor; i++) {
-            for (int j = 0; j <= 1; j++) {
-                if (j != 0) {
-                    starSpace += " ";
-                }else {
-                    System.out.printf("%s**", starSpace);
-                }
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.printf("0");
             }
-            System.out.println();
+            System.out.println("**");
         }
     }
 }
