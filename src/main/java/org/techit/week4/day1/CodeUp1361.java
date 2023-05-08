@@ -8,10 +8,9 @@ public class CodeUp1361 {
         Scanner sc = new Scanner(System.in);
 
         int height = sc.nextInt();
-        String starSpace = "";
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < i; j++) {
-                System.out.printf("0");
+                System.out.printf(" ");
             }
             System.out.println("**");
         }
