@@ -10,6 +10,11 @@ public class CodeUp98 {
         arr = new int[hei][wide];
     }
 
+    public CodeUp98() { //오버 로딩
+
+        arr = new int[6][6];
+    }
+
     private  int hei; //높이
     private  int wide; // 길이
 
@@ -30,7 +35,7 @@ public class CodeUp98 {
 
 
     public static void main(String[] args) {
-        CodeUp98 codeUp98 = new CodeUp98(5,5);
+        CodeUp98 codeUp98 = new CodeUp98();
         codeUp98.insertStick(2,0,1,1);
         codeUp98.insertStick(3,1,2,3);
         codeUp98.insertStick(4,1,2,5);
