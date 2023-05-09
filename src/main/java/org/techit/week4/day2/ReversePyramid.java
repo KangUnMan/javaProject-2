@@ -7,16 +7,14 @@ public class ReversePyramid {
     }
 
     private String spaceChar = "0";
-    public void printReversePyramid(int height){
-        for(int i=0; i<height; i++){
-            for(int j = 0; j < i ; j++){
-                System.out.printf("%s",spaceChar);
-            }
-            for(int j = 0; j < height+2-i*2; j++){
-                System.out.printf("*");
-            }
 
-            System.out.println();
+    public String formatReversePyramid(int height, int i){
+        return String.format("%s%s\n",spaceChar.repeat(height-i),
+                "*".repeat(2*i-1));
+    }
+    public void printReversePyramid(int height){
+        for(int i=height; i>0; i--){
+            System.out.print(formatReversePyramid(height,i));
         }
     }
     public static void main(String[] args) {
