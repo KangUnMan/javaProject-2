@@ -8,8 +8,8 @@ class DiexTest {
         PyramidDrawer pyramidDrawer = new PyramidDrawer();
         Diex diex = new Diex(dimondDrawer);
         Diex diex1 = new Diex(pyramidDrawer);
-        diex.printshape();
-        diex1.printshape();
+        diex.printshape(7);
+        diex1.printshape(7);
 
     }
 
