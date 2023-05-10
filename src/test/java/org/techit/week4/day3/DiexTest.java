@@ -5,8 +5,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class DiexTest {
     public static void main(String[] args) {
         DimondDrawer dimondDrawer = new DimondDrawer();
+        PyramidDrawer pyramidDrawer = new PyramidDrawer();
         Diex diex = new Diex(dimondDrawer);
+        Diex diex1 = new Diex(pyramidDrawer);
         diex.printshape();
+        diex1.printshape();
 
     }
 
