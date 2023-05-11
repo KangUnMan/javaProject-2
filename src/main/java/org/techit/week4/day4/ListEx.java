@@ -1,7 +1,6 @@
 package org.techit.week4.day4;
 
 import java.util.*;
-
 public class ListEx {
     public static void main(String[] args) {
         List l1 = new ArrayList();
