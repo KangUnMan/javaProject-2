@@ -13,5 +13,9 @@ public class ListEx {
         System.out.println(l1.size());
         l1.remove(0);
         System.out.println(l1.get(0));
+
+        for(var item : l1){
+            System.out.println(item);
+        }
     }
 }
