@@ -9,5 +9,7 @@ public class TwoPoint {
         Point p2 = new Point();
         p2.x=  2;
         p2.y = 3 ;
+
+
     }
 }
